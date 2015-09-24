@@ -33,5 +33,6 @@ fi
 
 echo $GPIO_EN_UART > /sys/class/gpio/export
 
+echo out > /sys/class/gpio/gpio$GPIO_EN_UART/direction
 echo 0 > /sys/class/gpio/gpio$GPIO_EN_SPI/value
 echo 1 > /sys/class/gpio/gpio$GPIO_EN_UART/value
