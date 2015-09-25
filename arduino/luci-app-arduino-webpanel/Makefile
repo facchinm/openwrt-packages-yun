@@ -13,7 +13,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_SOURCE_URL:=https://github.com/facchinm/YunWebUI/releases/download/$(PKG_VERSION)/
-PKG_MD5SUM:=26cae1fc325aacfd49c2aa06958f12f2
+PKG_MD5SUM:=815d5c6b26bc40e2ba6ea40be047c0b5
 
 include $(INCLUDE_DIR)/package.mk
 
